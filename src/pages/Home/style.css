@@ -1,0 +1,31 @@
+.intro__text{
+    width: 645px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+
+.intro__subtext{
+    width: 380px;
+    margin: 50px 0;
+    /* font-family: Inter, sans-serif; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.img__home{
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 603px;
+    top: 336px;
+}

@@ -1,0 +1,37 @@
+
+
+nav{
+    margin-top: 44px;
+    display: flex;    
+   align-items: center;  
+}
+
+.nav__logo{   
+   
+}
+
+.nav__menu{
+    width: 30%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.nav__button{
+    margin-left: auto;
+}
+
+nav a:first-of-type{
+    font-weight: 800;
+}
+
+nav a{  
+    /* font-family: Inter, sans-serif; */
+    font-style: normal;
+    font-weight: 500;  
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #4B5D68;
+}
+
