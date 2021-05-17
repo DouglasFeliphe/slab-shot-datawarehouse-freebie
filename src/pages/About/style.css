@@ -1,0 +1,35 @@
+#about{
+    display: flex;
+    align-items: center;  
+    width: fit-content;
+    margin: 250px 0;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+#about div{
+    margin: 0 92px;
+}
+
+#about div h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+#about div p{
+    width: 474px;
+    height: 170px;
+
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #4B5D68;
+}
+
