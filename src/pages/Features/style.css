@@ -1,0 +1,53 @@
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #212353;
+}
+
+#features p{    
+    width: 584px;
+    height: 58px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    text-align: center;
+
+    color: #4B5D68;
+}
+#features div{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* align-items: center;  */  
+
+}
+.feature__item{
+    width: 100%;
+    flex: 50%;
+    width: 442px;
+    height: 358px;  
+
+    background: #68C9BA;
+    /* opacity: 0.1; */
+    border-radius: 50px;
+    color: #212353;
+}
